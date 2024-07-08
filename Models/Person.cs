@@ -10,7 +10,7 @@ namespace Exemploop.Models
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public void Greeting() {
+        public virtual void Greeting() {//change to virtual to allow override by child classes
             Console.WriteLine("Hello, my name is " + Name + " and I am " + Age + " years old.");
         }
     }
