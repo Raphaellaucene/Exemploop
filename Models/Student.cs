@@ -7,6 +7,10 @@ namespace Exemploop.Models
 {
     public class Student : Person
     {
+        //constructor passing name to parent class
+        public Student(string name) : base(name)
+        {
+        }
         public double Grade { get; set; }
 
         public override void Greeting()

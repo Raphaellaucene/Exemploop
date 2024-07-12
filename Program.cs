@@ -1,17 +1,21 @@
 ﻿using Exemploop.Models;
 
-Student s1 = new Student();
+Current ca1 = new Current();
+ca1.deposit(1000);
+ca1.displayBalance();
 
-s1.Name = "John";
-s1.Age = 25;
-s1.Grade = 8.5;
-s1.Greeting();
+// Student s1 = new Student();
 
-Professor p1 = new Professor();
-p1.Name = "Jane";
-p1.Age = 35;
-p1.Salary = 5000;
-p1.Greeting();
+// s1.Name = "John";
+// s1.Age = 25;
+// s1.Grade = 8.5;
+// s1.Greeting();
+
+// Professor p1 = new Professor();
+// p1.Name = "Jane";
+// p1.Age = 35;
+// p1.Salary = 5000;
+// p1.Greeting();
 
 // People p1 = new People();
 // p1.Name = "John";

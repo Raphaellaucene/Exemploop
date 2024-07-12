@@ -7,6 +7,9 @@ namespace Exemploop.Models
 {
     public class Professor : Person
     {
+        public Professor(string name) : base(name)
+        {
+        }
         public decimal Salary { get; set; }
 
         public override void Greeting()

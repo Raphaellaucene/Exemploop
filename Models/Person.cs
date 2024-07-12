@@ -7,6 +7,10 @@ namespace Exemploop.Models
 {
     public class Person
     {
+        //constructor requiring name
+        public Person(string name) {
+            Name = name;
+        }
         public string Name { get; set; }
         public int Age { get; set; }
 
