@@ -10,6 +10,7 @@ namespace Exemploop.Models
         public Professor(string name) : base(name)
         {
         }
+
         public decimal Salary { get; set; }
 
         public override void Greeting()

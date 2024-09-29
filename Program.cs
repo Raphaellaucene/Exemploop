@@ -1,4 +1,5 @@
 ﻿using Exemploop.Models;
+using Exemploop.Interfaces;
 
 Current ca1 = new Current();
 ca1.deposit(1000);

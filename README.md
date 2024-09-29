@@ -22,3 +22,11 @@ Is intended to be exclusively a model to be inherited, so it cannot be instantia
 Exemplo implemented
 ![abstract class](image-1.png)
 
+### Sealed Classes
+It's aims to prevent other classes from inheriting from it, in other words, you tell it that no class can be inherited from this class
+
+### Interfaces
+Interfaces is a contract that can be implemented by a class, like as abstract class that you can define attrributes and methods to be implemented by another class, it can be instanced
+
+Exemplo implemented
+![alt text](image-2.png)
